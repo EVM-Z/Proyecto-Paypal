@@ -2,6 +2,8 @@
 
 require 'sdk/autoload.php';
 
+define ('URL_SITIO', 'http://localhost/paypal');
+
 // Instalamos el SDK
 $apiContext = new \PayPal\Rest\ApiContext(
     new \PayPal\Auth\OAuthTokenCredential(
